@@ -33,29 +33,29 @@ const Navigation = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-sm shadow-md"
+          ? "bg-background/80 backdrop-blur-xl shadow-lg shadow-primary/10 border-b border-border/50"
           : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-6">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="text-xl font-bold gradient-text"
+            className="text-2xl font-bold gradient-text hover:scale-110 transition-transform"
           >
             MGK
           </button>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden md:flex items-center space-x-2">
             {navItems.map((item) => (
               <Button
                 key={item.href}
                 variant="ghost"
                 onClick={() => scrollToSection(item.href)}
-                className="text-foreground hover:text-primary"
+                className="text-foreground hover:text-primary hover:bg-primary/10 transition-all hover:scale-105"
               >
                 {item.label}
               </Button>
@@ -66,7 +66,7 @@ const Navigation = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden hover:scale-110 transition-transform"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
@@ -79,14 +79,15 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 bg-background/95 backdrop-blur-sm border-t border-border">
+          <div className="md:hidden py-6 bg-background/95 backdrop-blur-xl border-t border-border/50 rounded-b-xl">
             <div className="flex flex-col space-y-2">
-              {navItems.map((item) => (
+              {navItems.map((item, index) => (
                 <Button
                   key={item.href}
                   variant="ghost"
                   onClick={() => scrollToSection(item.href)}
-                  className="text-foreground hover:text-primary justify-start"
+                  className="text-foreground hover:text-primary hover:bg-primary/10 justify-start text-lg transition-all hover:translate-x-2"
+                  style={{ animationDelay: `${index * 0.05}s` }}
                 >
                   {item.label}
                 </Button>

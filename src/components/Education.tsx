@@ -1,6 +1,9 @@
 import Timeline from "./Timeline";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const Education = () => {
+  const { ref, isVisible } = useScrollAnimation();
+
   const education = [
     {
       title: "Master of Science in Computer Science",
@@ -19,11 +22,19 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="py-20 bg-card">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 gradient-text text-center">Education</h2>
+    <section id="education" className="py-32 bg-background relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
+      
+      <div ref={ref} className="container mx-auto px-6 relative z-10">
+        <h2
+          className={`text-5xl md:text-6xl font-bold mb-16 gradient-text text-center transition-all duration-1000 ${
+            isVisible ? "opacity-100 rotate-0" : "opacity-0 -rotate-3"
+          }`}
+        >
+          Education
+        </h2>
         <div className="max-w-4xl mx-auto">
-          <Timeline items={education} type="education" />
+          <Timeline items={education} type="education" isVisible={isVisible} />
         </div>
       </div>
     </section>
