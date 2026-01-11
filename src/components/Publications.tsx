@@ -25,7 +25,7 @@ const Publications = () => {
     {
       title: "Real-time Visualization and Classification of DDoS Attack using Supervised Learning Algorithms",
       journal: "European Union Digital Library",
-      year: "2022",
+      year: "2023",
       description:
         "Best practices and patterns for using TypeScript in enterprise-level applications.",
       url: "https://eudl.eu/doi/10.4108/eai.23-11-2023.2343234",

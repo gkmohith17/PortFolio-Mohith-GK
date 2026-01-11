@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "./ui/button";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
@@ -9,25 +9,25 @@ const Connect = () => {
     {
       icon: Github,
       label: "GitHub",
-      url: "https://github.com/mohithgk",
+      url: "https://github.com/gkmohith17",
       color: "hover:text-foreground hover:border-foreground",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/mohithgk",
+      url: "https://www.linkedin.com/in/mohith-g-k-47216a256",
       color: "hover:text-blue-500 hover:border-blue-500",
     },
     {
-      icon: Twitter,
-      label: "Twitter",
-      url: "https://twitter.com/mohithgk",
-      color: "hover:text-blue-400 hover:border-blue-400",
+      icon: Instagram,
+      label: "Instagram",
+      url: "https://www.instagram.com/_gkmohith/",
+      color: "hover:text-pink-400 hover:border-pink-400",
     },
     {
       icon: Mail,
       label: "Email",
-      url: "mailto:mohithgk@example.com",
+      url: "mailto:gkmohith17@gmail.com",
       color: "hover:text-red-400 hover:border-red-400",
     },
   ];
@@ -83,9 +83,9 @@ const Connect = () => {
           >
             <p className="text-muted-foreground mb-6 text-lg">Or send me a direct message:</p>
             <Button size="lg" asChild className="group hover:scale-110 transition-all duration-300 text-lg px-8 py-6">
-              <a href="mailto:mohithgk@example.com">
+              <a href="mailto:gkmohith17@gmail.com">
                 <Mail className="w-6 h-6 mr-3 group-hover:rotate-12 transition-transform" />
-                mohithgk@example.com
+                gkmohith17@gmail.com
               </a>
             </Button>
           </div>
