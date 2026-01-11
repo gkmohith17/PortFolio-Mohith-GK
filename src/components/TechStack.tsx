@@ -7,34 +7,88 @@ const TechStack = () => {
   const techCategories = [
     {
       icon: Code2,
-      title: "Frontend",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
+      title: "AI & Machine Learning",
+      technologies: ["Python",
+    "TensorFlow",
+    "Keras",
+    "PyTorch",
+    "scikit-learn",
+    "Hugging Face",
+    "OpenCV",
+    "NLTK"],
     },
     {
-      icon: Server,
-      title: "Backend",
-      technologies: ["Node.js", "Express", "Python", "Django"],
+  icon: Database,
+  title: "Data Science & Analytics",
+  technologies: [
+    "Pandas",
+    "NumPy",
+    "Matplotlib","Seaborn","Jupyter Notebook","Google Colab"
+  ],
     },
     {
-      icon: Database,
-      title: "Database",
-      technologies: ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
+      icon: Code2,
+      title: "Frontend Development",
+      technologies: ["React.js","Tailwind CSS","HTML","CSS","JavaScript"],
     },
     {
-      icon: Globe,
-      title: "Cloud & DevOps",
-      technologies: ["AWS", "Docker", "Kubernetes", "CI/CD"],
-    },
+  icon: Server,
+  title: "Backend & APIs",
+  technologies: [
+    "Node.js",
+    "Express.js",
+    "FastAPI",
+    "Python",
+    "REST APIs"
+  ],
+}
+,
     {
-      icon: Smartphone,
-      title: "Mobile",
-      technologies: ["React Native", "Flutter", "iOS", "Android"],
-    },
+  icon: Database,
+  title: "Databases",
+  technologies: [
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "SQL"
+  ],
+}
+,
     {
-      icon: Wrench,
-      title: "Tools",
-      technologies: ["Git", "VS Code", "Figma", "Postman"],
-    },
+  icon: Globe,
+  title: "Cloud & DevOps",
+  technologies: [
+    "AWS",
+    "GCP",
+    "Docker",
+    "CI/CD (Basics)"
+  ],
+}
+,{
+  icon: Code2,
+  title: "Programming Languages",
+  technologies: [
+    "Python",
+    "C++",
+    "C",
+    "Java",
+    "SQL",
+    "JavaScript"
+  ],
+}
+,{
+  icon: Wrench,
+  title: "Tools & Platforms",
+  technologies: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Anaconda",
+    "Postman",
+    "Jupyter"
+  ],
+}
+
   ];
 
   return (

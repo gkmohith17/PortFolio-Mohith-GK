@@ -7,28 +7,28 @@ const Publications = () => {
 
   const publications = [
     {
-      title: "Building Scalable Web Applications with React and Node.js",
-      journal: "Tech Journal",
-      year: "2023",
+      title: "Comparative Analysis of Object Detection Models for Peacock Detection: Evaluating Their Performance and Key Points",
+      journal: "Research Journal",
+      year: "2025",
       description:
-        "A comprehensive guide to building scalable web applications using modern JavaScript technologies.",
-      url: "https://example.com",
+        "This paper presents a comparative analysis of various object detection models applied to peacock detection, highlighting their performance metrics and key features.",
+      url: "https://rspsciencehub.com/index.php/journal/article/view/973",
     },
     {
-      title: "Machine Learning in Web Development: A Practical Approach",
-      journal: "Dev Magazine",
-      year: "2022",
+      title: "Visualization of DDoS Attack using Python Libraries",
+      journal: "IEEE Xplore",
+      year: "2024",
       description:
-        "Exploring practical applications of machine learning algorithms in modern web development.",
-      url: "https://example.com",
+        "This study explores the visualization techniques for Distributed Denial of Service (DDoS) attacks using Python libraries, providing insights into attack patterns and mitigation strategies.",
+      url: "https://ieeexplore.ieee.org/document/10545204",
     },
     {
-      title: "TypeScript Best Practices for Large-Scale Applications",
-      journal: "Code Review",
+      title: "Real-time Visualization and Classification of DDoS Attack using Supervised Learning Algorithms",
+      journal: "European Union Digital Library",
       year: "2022",
       description:
         "Best practices and patterns for using TypeScript in enterprise-level applications.",
-      url: "https://example.com",
+      url: "https://eudl.eu/doi/10.4108/eai.23-11-2023.2343234",
     },
   ];
 
