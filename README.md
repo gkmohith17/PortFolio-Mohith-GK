@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+# 🌟 Mohith G K | AI Enthusiast & Tech Explorer
 
-## Project info
+Welcome to the repository of my personal portfolio website! This project showcases my journey, skills, projects, and passion for Artificial Intelligence and Software Development.
 
-**URL**: https://lovable.dev/projects/623b448a-19a8-4ae2-8380-41b505f1abc9
+---
 
-## How can I edit this code?
+## 🚀 About Me
 
-There are several ways of editing your application.
+I am **Mohith G K**, a dedicated developer with a deep-seated interest in building innovative solutions. My expertise lies in **Machine Learning**, where I enjoy transforming complex problems into elegant, efficient code.
 
-**Use Lovable**
+- 🤖 **AI Enthusiast**: Passionate about Python, TensorFlow, and PyTorch.
+- 💡 **Problem Solver**: Always looking for the most optimal solution.
+- 🔭 **Tech Explorer**: Constantly learning and pushing the boundaries of what's possible.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/623b448a-19a8-4ae2-8380-41b505f1abc9) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+### AI & Machine Learning
+- Python, TensorFlow, Keras, PyTorch, scikit-learn, Hugging Face, OpenCV, NLTK
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Data Science & Analytics
+- Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend & Backend
+- **Frontend**: React.js, Tailwind CSS, HTML/CSS, JavaScript
+- **Backend**: Node.js, Express.js, FastAPI, REST APIs
 
-Follow these steps:
+### Databases & Tools
+- **Databases**: MySQL, PostgreSQL, MongoDB
+- **Tools**: Git, GitHub, VS Code, Docker, AWS, GCP
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📂 Featured Projects
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🌤️ Weather AI Agent
+An AI-powered virtual assistant that provides real-time weather updates and personalized recommendations.
+- **Tech**: Python, Flask, Gemini API, Weaviate
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🧠 Online Therapist
+A platform trained with various therapy methods to provide mental health support.
+- **Tech**: React, Firebase, Tailwind CSS
 
-**Edit a file directly in GitHub**
+### 📊 RAG Based Sentimental Analysis
+Utilizes Retrieval-Augmented Generation to analyze sentiments from large datasets.
+- **Tech**: Python, Langchain, Hugging Face API, Pandas
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 📝 Complaint Management Website
+A streamlined web application for lodging and tracking government-related complaints.
+- **Tech**: React, Node.js, Express, MongoDB
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 💻 Getting Started
 
-## What technologies are used for this project?
+To run this portfolio project locally, follow these steps:
 
-This project is built with:
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- npm or bun
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Installation
 
-## How can I deploy this project?
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/gkmohith17/portfolio.git
+   cd portfolio
+   ```
 
-Simply open [Lovable](https://lovable.dev/projects/623b448a-19a8-4ae2-8380-41b505f1abc9) and click on Share -> Publish.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Can I connect a custom domain to my Lovable project?
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-Yes, you can!
+The site will be available at `http://localhost:8080`.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📬 Connect with Me
+
+- **GitHub**: [@gkmohith17](https://github.com/gkmohith17)
+- **Portfolio**: [Live Site](https://lovable.dev/projects/623b448a-19a8-4ae2-8380-41b505f1abc9)
+
+---
+
+Built with ❤️ using **React**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.
