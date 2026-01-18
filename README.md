@@ -85,7 +85,7 @@ The site will be available at `http://localhost:8080`.
 ## 📬 Connect with Me
 
 - **GitHub**: [@gkmohith17](https://github.com/gkmohith17)
-- **Portfolio**: [Live Site](https://lovable.dev/projects/623b448a-19a8-4ae2-8380-41b505f1abc9)
+- **Portfolio**: [Live Site](https://port-folio-mohith-gk.vercel.app/)
 
 ---
 
