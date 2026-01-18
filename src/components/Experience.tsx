@@ -6,8 +6,8 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: "Technical Intern",
-      organization: "Cisco Systems",
+      title: "Software Engineer Intern",
+      organization: "CISCO Systems",
       period: "Jan 2026 - Present",
       description:
         "Working on enhancing network security features and optimizing performance for enterprise solutions. Gained hands-on experience with cutting-edge technologies in a collaborative environment.",

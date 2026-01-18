@@ -7,36 +7,32 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Weather AI Agent",
       description:
-        "A full-featured e-commerce platform with payment integration, product management, and user authentication.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/mohithgk",
+        "An AI-powered virtual assistant that provides real-time weather updates, forecasts, and personalized recommendations based on user preferences.",
+      technologies: ["Python", "Flask", "Gemini API","Weaviate VectorDatabase",],
+      githubUrl: "https://github.com/gkmohith17?page=1&tab=repositories",
     },
     {
-      title: "Task Management App",
+      title: "Online Therapist",
       description:
-        "Collaborative task management application with real-time updates and team features.",
+        "A software trained with various therapy methods to provide support and guidance to users seeking mental health assistance.",
       technologies: ["React", "Firebase", "Tailwind CSS"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/mohithgk",
+      githubUrl: "https://github.com/gkmohith17/Online-Therapist",
     },
     {
-      title: "Weather Dashboard",
+      title: "RAG Based Sentimental Analysis",
       description:
-        "Real-time weather dashboard with location-based forecasts and interactive visualizations.",
-      technologies: ["React", "TypeScript", "OpenWeather API"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/mohithgk",
+        "A tool that utilizes Retrieval-Augmented Generation (RAG) techniques to analyze and interpret sentiments from large datasets, providing insights for businesses and researchers.",
+      technologies: ["Python", "Langchain", "Hugging Face API", "Pandas"],
+      githubUrl: "https://github.com/gkmohith17/RAG-Sentimental-Analysis",
     },
     {
-      title: "Portfolio Website",
+      title: "Complaint Managment Website",
       description:
-        "Personal portfolio website showcasing projects, skills, and professional experience.",
-      technologies: ["React", "Tailwind CSS", "Vite"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/mohithgk",
+        "A web application designed to streamline the process of lodging, tracking, and managing complaints for government, enhancing customer service and response times.",
+      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      githubUrl: "https://github.com/gkmohith17/Complaint-Managment-Website",
     },
   ];
 
@@ -82,7 +78,7 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-4">
-                <Button
+                {/* <Button
                   variant="default"
                   size="sm"
                   asChild
@@ -92,7 +88,7 @@ const Projects = () => {
                     <ExternalLink className="w-4 h-4 mr-2 group-hover/btn:rotate-45 transition-transform" />
                     Live Demo
                   </a>
-                </Button>
+                </Button> */}
                 <Button
                   variant="outline"
                   size="sm"
